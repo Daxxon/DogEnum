@@ -16,7 +16,6 @@ class DogBreedTest {
     doggo.breed = Dog.DogBreed.valueOf(keyboardInput.nextLine());
     System.out.print("Name your new pupper: ");
     doggo.name = keyboardInput.nextLine();
-
     System.out.println("Breed of " + doggo.name + " is: " + doggo.breed);
   }
 }
