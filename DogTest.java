@@ -23,8 +23,6 @@ class Dog {
   DogGender gender;
 
   String name;
-  String color;
-  int age;
 
   public void chooseBreed() {
     System.out.print("What kind of pupper do you want - a corgi, a shibu, or a husky? ");  
